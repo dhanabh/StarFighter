@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: -0.12919897, y: 9.870801}
+  timeAreaShownRange: {x: 0.2556976, y: 6.1746845}
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 3.0166666666666666
+  windowTime: 1.0333333333333334
   verticalScroll: 0
   sequencerHeaderWidth: 315
   m_Keys:
   - {fileID: 9071444715139404872, guid: 66496c28ee6fe547280956cd03c9abd5, type: 2}
+  - {fileID: -5016690387541850445, guid: 66496c28ee6fe547280956cd03c9abd5, type: 2}
   m_Vals:
   - collapsed: 0
     showMarkers: 1
@@ -55,6 +56,42 @@ MonoBehaviour:
       y: 1
       width: 1
       height: 1
+    trackHeightExtension: 0
+    m_MarkerTimeStampsKeys: 
+    m_MarkerTimeStampsValues: 
+  - collapsed: 0
+    showMarkers: 1
+    showInlineCurves: 1
+    inlineAnimationCurveHeight: 100
+    lastInlineCurveDataID: -16774
+    inlineCurvesState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 00000080ffffffff2a585172
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    inlineCurvesShownAreaInsideMargins:
+      serializedVersion: 2
+      x: 0.2556976
+      y: -79.58
+      width: 5.918987
+      height: 91.380005
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
