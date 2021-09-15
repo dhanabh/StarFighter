@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: 0.2556976, y: 6.1746845}
+  timeAreaShownRange: {x: 0.9759399, y: 5.415412}
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 1.0333333333333334
+  windowTime: 3.783333333333333
   verticalScroll: 0
-  sequencerHeaderWidth: 315
+  sequencerHeaderWidth: 316
   m_Keys:
   - {fileID: 9071444715139404872, guid: 66496c28ee6fe547280956cd03c9abd5, type: 2}
   - {fileID: -5016690387541850445, guid: 66496c28ee6fe547280956cd03c9abd5, type: 2}
   m_Vals:
   - collapsed: 0
     showMarkers: 1
-    showInlineCurves: 0
+    showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: -1
+    lastInlineCurveDataID: 17996
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_SelectedIDs: d87b4861
+      m_LastClickedID: 1632140248
+      m_ExpandedIDs: 0000008002078b8251604aea0ab858f8ffffffff2e59af2cc6a4e164
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -52,23 +52,23 @@ MonoBehaviour:
       m_SearchString: 
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
-      x: 1
-      y: 1
-      width: 1
-      height: 1
+      x: 0.9759399
+      y: -13.472
+      width: 4.439472
+      height: 83.37364
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
   - collapsed: 0
     showMarkers: 1
-    showInlineCurves: 1
+    showInlineCurves: 0
     inlineAnimationCurveHeight: 100
     lastInlineCurveDataID: -16774
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 00000080ffffffff2a585172
+      m_SelectedIDs: 3d07a1be
+      m_LastClickedID: -1096743107
+      m_ExpandedIDs: 000000804e1c4ae7ca5c60eaffffffff2a585172
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -88,9 +88,9 @@ MonoBehaviour:
       m_SearchString: 
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
-      x: 0.2556976
+      x: 0.97477263
       y: -79.58
-      width: 5.918987
+      width: 4.441807
       height: 91.380005
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 

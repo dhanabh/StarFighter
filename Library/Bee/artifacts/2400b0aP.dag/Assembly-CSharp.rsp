@@ -278,6 +278,7 @@
 -r:"Library/Bee/artifacts/2400b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
 "Assets/scripts/QuitApp.cs"
 -langversion:8.0
 
