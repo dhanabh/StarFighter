@@ -690,6 +690,7 @@ GameObject:
   - component: {fileID: 1796684710}
   - component: {fileID: 1796684711}
   - component: {fileID: 1796684712}
+  - component: {fileID: 1796684713}
   m_Layer: 0
   m_Name: PlayerRig
   m_TagString: Untagged
@@ -741,7 +742,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1796684709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dbf97bcc5e9e21f9b1129abc3b29712, type: 3}
+  m_Script: {fileID: 11500000, guid: c9084a2ec1eec3e13895af3eb04b5e95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1796684713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796684709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad329831af056ee5d9927626d6af9e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2084616036

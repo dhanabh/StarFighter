@@ -103,6 +103,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -312,7 +313,8 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
-"Assets/scripts/QuitApp.cs"
+"Assets/scripts/ExitApp.cs"
+"Assets/scripts/PlayerControls.cs"
 -langversion:8.0
 
 /deterministic

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637668756130000000
+      ticks: 637678100500000000
     m_Hash: 74537601
   m_LockFileStatus:
     m_FilePath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637668756130000000
+      ticks: 637678100500000000
     m_Hash: 2115469834
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
