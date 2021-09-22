@@ -7,6 +7,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField]float xControl = 20f;
     [SerializeField]float yControl = 20f;
     // Start is called before the first frame update
+    [SerializeField] float xRange = 7f;
+    [SerializeField] float yRange =5f;
     void Start()
     {
         
@@ -23,11 +25,13 @@ public class PlayerControls : MonoBehaviour
         // Debug.Log("Horizontal = " + xThrow); 
         float xOffset = xThrow * Time.deltaTime * xControl;
         float yOffset = yThrow * Time.deltaTime * yControl;
-        float newXpos = transform.localPosition.x + xOffset;
-        float newYpos = transform.localPosition.y +yOffset;
+        float rawXpos = transform.localPosition.x + xOffset;
+        float rawYpos = transform.localPosition.y +yOffset;
 
-        transform.localPosition = new Vector3(newXpos,
-                                          newYpos,
+        float xClampedPos = Mathf.Clamp(rawXpos,-xRange,xRange);
+         float yClampedPos = Mathf.Clamp(rawYpos,-yRange,yRange);
+        transform.localPosition = new Vector3(xClampedPos,
+                                          yClampedPos,
                                           transform.localPosition.z);
 
         
