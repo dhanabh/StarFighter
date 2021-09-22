@@ -573,8 +573,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754097177}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -12}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1796684710}
@@ -617,6 +617,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1796684710}
     m_Modifications:
+    - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: xControl
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: yControl
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2358195761363016792, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_Name
       value: PlayerShip
@@ -624,18 +632,6 @@ PrefabInstance:
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -757,6 +753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad329831af056ee5d9927626d6af9e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xControl: 10
+  yControl: 10
 --- !u!1 &2084616036
 GameObject:
   m_ObjectHideFlags: 0
