@@ -16,7 +16,7 @@ MonoBehaviour:
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 0
+  windowTime: 0.2
   verticalScroll: 0
   sequencerHeaderWidth: 316
   m_Keys:
@@ -27,12 +27,12 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 17996
+    lastInlineCurveDataID: 18006
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e6597a6
-      m_LastClickedID: -1500027634
-      m_ExpandedIDs: 0000008002078b8251604aea0ab858f8ffffffff2e59af2cc6a4e16472688d6c
+      m_SelectedIDs: d87b4861
+      m_LastClickedID: 1632140248
+      m_ExpandedIDs: 0000008002078b827e1603de26075fe451604aea0ab858f8ffffffffe249db062e59af2cc6a4e16472688d6c
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -55,7 +55,7 @@ MonoBehaviour:
       x: 0.08170213
       y: -13.472
       width: 32.387135
-      height: 83.37364
+      height: 382.65906
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
