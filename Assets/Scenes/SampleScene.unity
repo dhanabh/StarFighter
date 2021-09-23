@@ -651,11 +651,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9961947
+      value: 0.9914449
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08715578
+      value: -0.13052624
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.y
@@ -667,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -10
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -761,6 +761,8 @@ MonoBehaviour:
   yControl: 10
   xRange: 5
   yRange: 5
+  positionPitchFactor: -2
+  controlPitchFactor: -10
 --- !u!1 &2084616036
 GameObject:
   m_ObjectHideFlags: 0

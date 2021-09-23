@@ -1,15 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeStarSparrowEditor
     Assembly-CSharp.dll:
     - ExitApp
     - PlayerControls
+    - ReadmeStarSparrow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    - UnityEditor.Timeline.SequenceHierarchy
-    - UnityEditor.Timeline.TimelineAssetViewModel
-    - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.AnimationTrack
     - UnityEngine.Timeline.TimelineAsset
@@ -54,13 +52,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1756}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 1922}
+      Script: {instanceID: 1920}
     - Class: 114
-      Script: {instanceID: 2484}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 3254}
+      Script: {instanceID: 3252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -156,7 +154,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 4e8418a6466b53c2a7e85d432544e972
+      Hash: 3bd373d91e16d4055fc63a4d4b81f8f1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControls
@@ -595,4 +593,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v0.7.x86_64
+  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v0.8.x86_64
