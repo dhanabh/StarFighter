@@ -14,7 +14,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float controlPitchFactor = -4.1f;
 
     [SerializeField] float positionYawFactor = 5.7f;
-    [SerializeField] float positiomRollFactor = -10f;
+    [SerializeField] float controlRollFactor = -30f;
     float xThrow, yThrow;
     void Start()
     {
@@ -33,25 +33,24 @@ public class PlayerControls : MonoBehaviour
     private void ProcessRotation()
     {   float yaw =0 ;
         float roll= 0;
+        float pitch =0;
 
-        // if(transform.localPosition.x < 0)positionYawFactor = 1* positionYawFactor;
-        // else if(transform.localPosition.x > 0)positionYawFactor =  -1 * positionYawFactor;
 
-        // roll = transform.localPosition.x * positiomRollFactor + transform.localPosition.y;
+        roll = xThrow * controlRollFactor;
 
-        // transform.localRotation = Quaternion.Euler(0,yaw,0);
+        
 
         yaw = transform.localPosition.x * positionYawFactor;
 
-        //transform.localRotation = Quaternion.Euler(0,yaw,0);
+        
        
         
         float pitchDueToLocalPosition = transform.localPosition.y * positionPitchFactor ;
         float pitchDueToControlThrow = yThrow*controlPitchFactor;
-        float pitch = pitchDueToLocalPosition + pitchDueToControlThrow;
+              pitch = pitchDueToLocalPosition + pitchDueToControlThrow;
         
               
-        //yaw = 0;
+        
         
 
         transform.localRotation = Quaternion.Euler(pitch,yaw,roll);
