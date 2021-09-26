@@ -10,10 +10,10 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float xRange = 14f;
     [SerializeField] float yRange = 8.5f;
 
-    [SerializeField] float positionPitchFactor = -3f;
+    [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -4.1f;
 
-    [SerializeField] float positionYawFactor = 2f;
+    [SerializeField] float positionYawFactor = 1.5f;
     [SerializeField] float controlRollFactor = -30f;
     float xThrow, yThrow;
     void Start()
