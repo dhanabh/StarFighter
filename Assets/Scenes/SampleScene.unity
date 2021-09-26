@@ -548,7 +548,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 98.025314
+  field of view: 32
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -574,7 +574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754097177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7}
+  m_LocalPosition: {x: 0, y: 0, z: -35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1796684710}
@@ -619,7 +619,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: xRange
-      value: 7
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: yRange
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: xControl
@@ -630,16 +634,24 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: controlRollFactor
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: positionYawFactor
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: controlPitchFactor
-      value: 0
+      value: -4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: positiomRollFactor
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 136432097, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: positionPitchFactor
-      value: -7
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2358195761363016792, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_Name
@@ -648,6 +660,18 @@ PrefabInstance:
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -663,11 +687,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9914449
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.13052624
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalRotation.y
@@ -679,7 +703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3166644204586632930, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -769,13 +793,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad329831af056ee5d9927626d6af9e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xControl: 10
-  yControl: 10
-  xRange: 5
-  yRange: 5
-  positionPitchFactor: -2
-  controlPitchFactor: -10
-  positionYawFactor: 20
+  xControl: 20
+  yControl: 20
+  xRange: 9
+  yRange: 7.5
+  positionPitchFactor: -6
+  controlPitchFactor: -4.1
+  positionYawFactor: 5.7
+  controlRollFactor: -30
 --- !u!1 &2084616036
 GameObject:
   m_ObjectHideFlags: 0
