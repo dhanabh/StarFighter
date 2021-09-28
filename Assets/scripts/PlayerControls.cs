@@ -15,6 +15,8 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] float positionYawFactor = 1.5f;
     [SerializeField] float controlRollFactor = -30f;
+    [SerializeField] ParticleSystem laserRightParticles;
+    [SerializeField] ParticleSystem laserLeftParticles;
     float xThrow, yThrow;
     void Start()
     {
@@ -26,11 +28,12 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessLasers();
         
 
     }
 
-    private void ProcessRotation()
+     void ProcessRotation()
     {   float yaw =0 ;
         float roll= 0;
         float pitch =0;
@@ -56,7 +59,7 @@ public class PlayerControls : MonoBehaviour
         transform.localRotation = Quaternion.Euler(pitch,yaw,roll);
     }
 
-    private void ProcessTranslation()
+    void ProcessTranslation()
     {
         xThrow = Input.GetAxis("Horizontal");
         yThrow = Input.GetAxis("Vertical");
@@ -73,5 +76,21 @@ public class PlayerControls : MonoBehaviour
         transform.localPosition = new Vector3(xClampedPos,
                                           yClampedPos,
                                           transform.localPosition.z);
+    }
+    void ProcessLasers(){
+
+        if(Input.GetButtonDown("Fire2")){
+
+            laserRightParticles.Play();
+
+
+        }
+        if(Input.GetButtonDown("Fire1")){
+
+            laserLeftParticles.Play();
+        }
+
+
+
     }
 }
