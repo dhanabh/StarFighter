@@ -14,7 +14,7 @@ public class ExitApp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.timeSinceLevelLoad > 20)
+        if(Time.timeSinceLevelLoad > 30)
          {
              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
          }
