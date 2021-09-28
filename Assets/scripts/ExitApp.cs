@@ -19,9 +19,8 @@ public class ExitApp : MonoBehaviour
              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
          }
 
-        //if(Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Cancel")){
-            if(Input.GetKeyDown(KeyCode.Escape)){
-
+        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Cancel")){
+            
             Application.Quit();
 
         }
