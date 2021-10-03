@@ -15,8 +15,10 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] float positionYawFactor = 1.5f;
     [SerializeField] float controlRollFactor = -30f;
-    [SerializeField] ParticleSystem laserRightParticles;
-    [SerializeField] ParticleSystem laserLeftParticles;
+    // [SerializeField] ParticleSystem laserRightParticles;
+    // [SerializeField] ParticleSystem laserLeftParticles;
+
+    [SerializeField] GameObject[] lasers;
     float xThrow, yThrow;
     void Start()
     {
@@ -79,18 +81,35 @@ public class PlayerControls : MonoBehaviour
     }
     void ProcessLasers(){
 
-        if(Input.GetButtonDown("Fire2")){
+        
+        if(Input.GetButton("Fire1")){
 
-            laserRightParticles.Play();
-
-
-        }
-        if(Input.GetButtonDown("Fire1")){
-
-            laserLeftParticles.Play();
+            ActivateLasers();
         }
 
+        else{
 
+            DeactivateLasers();
+        }
 
     }
+
+    void ActivateLasers(){
+
+        foreach (GameObject item in lasers){
+             
+             item.SetActive(true);
+        }
+
+    }
+
+    void DeactivateLasers(){
+
+        foreach(GameObject item in lasers){
+
+            item.SetActive(false);
+        }
+
+    }
+
 }

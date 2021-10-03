@@ -429,11 +429,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 44.414, y: 30.997, z: -5.324}
---- !u!198 &535995910 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3167779230921032554, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
-  m_PrefabInstance: {fileID: 5914055350357197584}
-  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &537804915
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -520,8 +515,9 @@ MonoBehaviour:
   controlPitchFactor: -4.1
   positionYawFactor: 1.5
   controlRollFactor: -30
-  laserRightParticles: {fileID: 535995910}
-  laserLeftParticles: {fileID: 1174301974}
+  lasers:
+  - {fileID: 5914055350357197586}
+  - {fileID: 5914055350357197585}
 --- !u!1 &1107443027
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,11 +548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!198 &1174301974 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3167779230014785658, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
-  m_PrefabInstance: {fileID: 5914055350357197584}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1796684711 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5914055350006134967, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
@@ -645,6 +636,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3167779230014785656, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167779230014785658, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167779230014785658, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167779230921032552, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167779230921032554, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167779230921032554, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5914055350006134965, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
       propertyPath: m_Name
       value: PlayerRig
@@ -695,3 +710,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+--- !u!1 &5914055350357197585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3167779230014785656, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+  m_PrefabInstance: {fileID: 5914055350357197584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5914055350357197586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3167779230921032552, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+  m_PrefabInstance: {fileID: 5914055350357197584}
+  m_PrefabAsset: {fileID: 0}

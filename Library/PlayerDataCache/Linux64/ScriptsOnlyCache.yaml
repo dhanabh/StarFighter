@@ -153,7 +153,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: af7db0743df2cbce717afdab260134e2
+      Hash: ef613b94151ee1c52566cb2fd81fb690
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControls
@@ -586,4 +586,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v1.6.x86_64
+  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v1.7.x86_64
