@@ -98,7 +98,9 @@ public class PlayerControls : MonoBehaviour
 
         foreach (GameObject item in lasers){
              
-             item.SetActive(true);
+            // item.SetActive(true);
+             var emmisionModule =item.GetComponent<ParticleSystem>().emission;
+             emmisionModule.enabled = true;
         }
 
     }
@@ -107,7 +109,10 @@ public class PlayerControls : MonoBehaviour
 
         foreach(GameObject item in lasers){
 
-            item.SetActive(false);
+            //item.SetActive(false);
+
+            var emissionModule = item.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = false;
         }
 
     }
