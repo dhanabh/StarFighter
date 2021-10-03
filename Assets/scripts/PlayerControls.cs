@@ -3,21 +3,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerControls : MonoBehaviour
-{
+{   
+    [Header("General Setup")]
+    [Tooltip("How fast Playership moves Horizontally")]
     [SerializeField]float xControl = 20f;
+    
+    [Tooltip("How fast Playership moves vertically")]
     [SerializeField]float yControl = 20f;
-    // Start is called before the first frame update
+
+
+    [Tooltip("How far Playership moves Horizontally")]
     [SerializeField] float xRange = 14f;
+    
+    [Tooltip("How far Playership moves vertically")]
     [SerializeField] float yRange = 8.5f;
 
+    [Header("Positional Factors Setup")]
+    [Tooltip("Pitch factor based playership position")]
     [SerializeField] float positionPitchFactor = -2f;
+
+    [Tooltip("Yaw factor based playership position")]
+    [SerializeField] float positionYawFactor = 1.5f;
+    
+    [Header("Control Factors Setup")]
+    [Tooltip("Pitch factor based on player input")]
     [SerializeField] float controlPitchFactor = -4.1f;
 
-    [SerializeField] float positionYawFactor = 1.5f;
+    [Tooltip("Roll factor based on player input")]
     [SerializeField] float controlRollFactor = -30f;
     // [SerializeField] ParticleSystem laserRightParticles;
     // [SerializeField] ParticleSystem laserLeftParticles;
 
+    [Header("Lasers setup")]
+    [Tooltip("Lasers Array. You may add laser systems to it")]
     [SerializeField] GameObject[] lasers;
     float xThrow, yThrow;
     void Start()
