@@ -24,5 +24,8 @@ public class ExitApp : MonoBehaviour
             Application.Quit();
 
         }
+        
+        
     }
+    
 }

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: -0.5917499, y: 42.369293}
+  timeAreaShownRange: {x: -0.60531867, y: 42.43284}
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 29.233333333333334
+  windowTime: 2
   verticalScroll: 0
   sequencerHeaderWidth: 363
   m_Keys:
@@ -26,13 +26,13 @@ MonoBehaviour:
   - collapsed: 0
     showMarkers: 1
     showInlineCurves: 1
-    inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 17986
+    inlineAnimationCurveHeight: 60
+    lastInlineCurveDataID: 15656
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 0e6597a6
       m_LastClickedID: -1500027634
-      m_ExpandedIDs: 0000008002078b82eee8ec95f50ba4bc7e1603de26075fe451604aeacad395f3717f15f60ab858f8ffffffffe249db061e2a210bd284181f752ebc2a2e59af2cfd6d633922d2f83c9635653ef21505453d03c6499a461e63ca76a763c6a4e16472688d6c
+      m_ExpandedIDs: 0000008002078b82eee8ec95f50ba4bc7e1603de26075fe451604aeacad395f3717f15f60ab858f8ffffffffe249db061e2a210bd284181fc2eea32a752ebc2a2e59af2cfd6d633922d2f83c9635653ef21505453d03c6499a461e63ca76a763c6a4e16472688d6c
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -53,22 +53,22 @@ MonoBehaviour:
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
       x: 0
-      y: -16.443153
-      width: 42.369293
-      height: 385.63025
+      y: -127.13805
+      width: 42.43284
+      height: 582.37476
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
   - collapsed: 0
     showMarkers: 1
-    showInlineCurves: 0
+    showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: -16774
+    lastInlineCurveDataID: 15658
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 3d07a1be
       m_LastClickedID: -1096743107
-      m_ExpandedIDs: 000000804e1c4ae7ca5c60eaffffffff2a585172
+      m_ExpandedIDs: 000000804e1c4ae7ca5c60eaffffffffc2eea32a2a585172
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -88,10 +88,10 @@ MonoBehaviour:
       m_SearchString: 
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
-      x: 0.97477263
+      x: 0
       y: -79.58
-      width: 4.441807
-      height: 91.380005
+      width: 42.43284
+      height: 95.37623
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 

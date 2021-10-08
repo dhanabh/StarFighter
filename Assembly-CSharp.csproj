@@ -39,6 +39,8 @@
      <Compile Include="Assets\scripts\PlayerControls.cs" />
      <Compile Include="Assets\scripts\ExitApp.cs" />
      <Compile Include="Assets\StarSparrow\Readme\Readme Files\Scripts\ReadmeStarSparrow.cs" />
+     <Compile Include="Assets\scripts\CollisionManager.cs" />
+     <Compile Include="Assets\scripts\CollisonChecker.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\StarSparrow\UpgradeHDRP\UpgradeHDRP.txt" />
     <Reference Include="UnityEngine">
