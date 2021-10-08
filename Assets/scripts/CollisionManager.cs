@@ -19,7 +19,7 @@ public class CollisionManager : MonoBehaviour
 
        Debug.Log(this.name + " Collided with " + other.gameObject.name );
     }
-    void OnTriggerEnter(Collision other){
+    void OnTriggerEnter(Collider other){
 
         Debug.Log(this.name + " tiggered " + other.gameObject.name );
     }
