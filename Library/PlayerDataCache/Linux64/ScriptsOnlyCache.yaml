@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CollisionManager
+    - Enemy
     - ExitApp
     - PlayerControls
     Unity.Rider.Editor.dll:
@@ -57,9 +59,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1890}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2454}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 2808}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 19922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -153,7 +159,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: ef613b94151ee1c52566cb2fd81fb690
+      Hash: e491defe9bf41b52dd31d2f5fd9a79cc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControls
@@ -193,6 +199,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisonChecker
   - hash:
       serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
@@ -337,6 +349,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionManager
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -583,7 +601,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v1.8.x86_64
+  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v1.9.x86_64
