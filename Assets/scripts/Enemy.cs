@@ -15,8 +15,9 @@ public class Enemy : MonoBehaviour
     {
         
     }
-    void OnParticleCollision(){
+    void OnParticleCollision(GameObject other){
 
+        Debug.Log(this.name + " was hit by " + other.gameObject.name);
         Destroy(this.gameObject);
 
     }

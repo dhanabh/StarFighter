@@ -1,12 +1,12 @@
 # Starting compiling UnityEngine.TestRunner.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bc890a916382c73b3b2e78700166ddcc
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b2f76208e34f7ad03aa2320ee39adf31
 # Starting compiling UnityEngine.UI.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-089d6a1da1669c38aae936bb03289ac9
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d435190a56545a290a51c2b6265f6659
 # Starting compiling Unity.Timeline.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-33d752e9108a93688814943b11b01031
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6a069ef20edec01aba32e90432f30fa7
 # Starting compiling Unity.TextMeshPro.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7a02876a9cdea4de9a2b0f4152a62bf0
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b8c887e19410dd8d282efe96bb1cd129
 # Starting compiling Assembly-CSharp-firstpass.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c6e08a865128632d08306c34f9aa9bfd
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7ab1bd84cbc8c387b8a81de63be8db21
 # Starting compiling Assembly-CSharp.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a640a47fcb61a019e9dd3a2e78e7c50f
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-069ab2285fc8eee11badb8cf50b1db20
