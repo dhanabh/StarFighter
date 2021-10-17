@@ -652,6 +652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b88ea2c0e7b3ec76bd31f91b11b5123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisionVFX: {fileID: 5914055350357197587}
   _levelReloadDelay: 1.5
 --- !u!54 &605925266
 Rigidbody:
@@ -811,6 +812,30 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.09505162
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.09505162
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.2264151
+      objectReference: {fileID: 0}
     - target: {fileID: 4683161511561124526, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -874,5 +899,10 @@ GameObject:
 --- !u!1 &5914055350357197586 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3167779230921032552, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
+  m_PrefabInstance: {fileID: 5914055350357197584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &5914055350357197587 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3385689011347969959, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
   m_PrefabInstance: {fileID: 5914055350357197584}
   m_PrefabAsset: {fileID: 0}

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class CollisionManager : MonoBehaviour
 {
     int _level;
+    [SerializeField]
+    ParticleSystem collisionVFX;
     [SerializeField] float _levelReloadDelay = 1.5f;
     // Start is called before the first frame update
     void Start()
@@ -38,7 +40,7 @@ public class CollisionManager : MonoBehaviour
 
             ship.gameObject.GetComponent<PlayerControls>().enabled = false;
             this.GetComponent<PlayerControls>().enabled = false;
-
+            collisionVFX.Play();
             Invoke("ReloadLevel", _levelReloadDelay);
 
         }
