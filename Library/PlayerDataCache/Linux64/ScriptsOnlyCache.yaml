@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
-    - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.AnimationTrack
     - UnityEngine.Timeline.TimelineAsset
@@ -357,7 +356,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 3dbf5840279540d4596aec7a26deaaec
+      Hash: 8ba40b3e10e2e794923454eb35819137
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CollisionManager
@@ -610,4 +609,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/Level01.unity
-  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v2.2.x86_64
+  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v2.3.x86_64
