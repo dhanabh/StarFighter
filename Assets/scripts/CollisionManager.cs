@@ -43,6 +43,7 @@ public class CollisionManager : MonoBehaviour
             ship.gameObject.GetComponent<PlayerControls>().enabled = false;
             this.GetComponent<PlayerControls>().enabled = false;
             explosionVFX.Play();
+            ship.gameObject.GetComponent<MeshRenderer>().enabled = false;
             collisionVFX.Play();
             Invoke("ReloadLevel", _levelReloadDelay);
 
