@@ -1,12 +1,12 @@
 # Starting compiling UnityEngine.TestRunner.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9c372557d6e5c4016a0c94e897687060
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8c3f2db21ec32c3c4a8358c336c29e8e
 # Starting compiling UnityEngine.UI.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b417d20e514e0e29f9e486255ee36686
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-50ec9145355dee682bd9bb3921130923
 # Starting compiling Unity.Timeline.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5f64bc98280d6360498859cf4ed5abb1
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-159527112e58564faa58b64b2471afa1
 # Starting compiling Unity.TextMeshPro.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-88c4598c8d7279876b5d2182d68fe81e
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d9d71c992d1b351478a2df9adf877736
 # Starting compiling Assembly-CSharp-firstpass.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8d91d13848745724997967cfa255daa6
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b9cc8c1f15e29cd2db0902d64bdb845b
 # Starting compiling Assembly-CSharp.dll
-/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e7255110fbc74b9ef82f031a687e431a
+/home/bdm/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-29313520f2e0c866bb9d64f0ab0631ff

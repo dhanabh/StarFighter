@@ -610,4 +610,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/Level01.unity
-  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v2.5.x86_64
+  playerPath: /home/bdm/Documents/unity/UnityTutorial/StarFighter/Build/starfighter_v2.6.x86_64
