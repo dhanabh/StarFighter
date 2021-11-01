@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] GameObject hitVfx;
+    [SerializeField]Transform ParticlesContainer;
     void Start()
     {
         
@@ -19,7 +20,10 @@ public class Enemy : MonoBehaviour
     void OnParticleCollision(GameObject other){
 
         Debug.Log(this.name + " was hit by " + other.gameObject.name);
-        Instantiate(hitVfx,transform.position,Quaternion.identity);
+       GameObject vfxObj = Instantiate(hitVfx,transform.position,Quaternion.identity);
+
+       vfxObj.transform.parent = ParticlesContainer;
+        
         Destroy(this.gameObject);
 
     }

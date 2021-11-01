@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6184277873431557702}
   - component: {fileID: 6184277873431557703}
   - component: {fileID: 6184277873431557704}
+  - component: {fileID: 1945354293074958613}
   m_Layer: 0
   m_Name: EnemyExplosionVFX
   m_TagString: Untagged
@@ -115,8 +116,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.4
-      minScalar: 0.2
+      scalar: 0.3
+      minScalar: 0.12
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -168,7 +169,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 100
+      scalar: 30
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4805,3 +4806,15 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &1945354293074958613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184277873431557705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cc5f4da8c0de1359276e140f3740be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

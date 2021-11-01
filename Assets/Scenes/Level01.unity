@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitVfx: {fileID: 6184277873431557705, guid: bd1320c47f703b9a4877c2d504154de4, type: 3}
+  ParticlesContainer: {fileID: 908230299}
 --- !u!1 &28358145
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,7 +535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198399258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 243.1, y: 202.4, z: 140.9}
+  m_LocalPosition: {x: 243.1, y: 205, z: 150}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -553,6 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitVfx: {fileID: 6184277873431557705, guid: bd1320c47f703b9a4877c2d504154de4, type: 3}
+  ParticlesContainer: {fileID: 908230299}
 --- !u!1 &510699227
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitVfx: {fileID: 6184277873431557705, guid: bd1320c47f703b9a4877c2d504154de4, type: 3}
+  ParticlesContainer: {fileID: 908230299}
 --- !u!136 &510699229
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -657,7 +660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510699227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 237.2, y: 202.4, z: 140.9}
+  m_LocalPosition: {x: 250.9, y: 196.6, z: 160}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -783,6 +786,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &908230298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908230299}
+  m_Layer: 0
+  m_Name: VFX_Particles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &908230299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908230298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 195.4, y: 122.8, z: 17.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &982414490 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6116253824477132710, guid: 1bbb156f3be844d7aa3c9c0557de3ecd, type: 3}
@@ -851,6 +884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitVfx: {fileID: 6184277873431557705, guid: bd1320c47f703b9a4877c2d504154de4, type: 3}
+  ParticlesContainer: {fileID: 908230299}
 --- !u!136 &1764095050
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -922,7 +956,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764095048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 248.82, y: 202.4, z: 140.9}
+  m_LocalPosition: {x: 266.6, y: 202.4, z: 155.9}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -966,6 +1000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitVfx: {fileID: 6184277873431557705, guid: bd1320c47f703b9a4877c2d504154de4, type: 3}
+  ParticlesContainer: {fileID: 908230299}
 --- !u!136 &1908810109
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1037,7 +1072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908810107}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 230.35, y: 202.4, z: 140.9}
+  m_LocalPosition: {x: 263.2, y: 201.8, z: 169.1}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
